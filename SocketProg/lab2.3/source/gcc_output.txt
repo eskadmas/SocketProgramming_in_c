@@ -1,0 +1,7 @@
+server2/server2_main.c: In function ‘serve_client’:
+server2/server2_main.c:256:2: warning: attempt to free a non-heap object ‘r_buf’ [-Wfree-nonheap-object]
+  free(r_buf);
+  ^
+server2/server2_main.c:257:2: warning: attempt to free a non-heap object ‘t_buf’ [-Wfree-nonheap-object]
+  free(t_buf);
+  ^
